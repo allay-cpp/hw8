@@ -6,7 +6,7 @@ void print(int* numbers, int size)
     for (int i = 0; i < size; i++)
     {
         std::cout << numbers[i];
-	std::cout << (i < size - 1 ? ' ' : '\n');
+	    std::cout << (i < size - 1 ? ' ' : '\n');
     }
     std::cout << std::endl;
 }
@@ -20,4 +20,5 @@ int main(int argc, char** argv)
     print(arr2, 2);
     print(arr3, 10);
     return 0;
+
 }
